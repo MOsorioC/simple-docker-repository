@@ -17,4 +17,4 @@ class User(db.Model):
 
 @app.route("/")
 def hello_world():
-    return jsonify(hello="world we")
+    return jsonify(hello="server up")
